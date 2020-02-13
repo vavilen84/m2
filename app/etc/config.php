@@ -225,6 +225,7 @@ return [
         'Klarna_Kp' => 1,
         'Magento_PaypalReCaptcha' => 1,
         'MSP_TwoFactorAuth' => 1,
+        'MageMastery_FirstLayout' => 1,
         'MageMastery_FirstModule' => 1,
         'Mageplaza_HelloWorld' => 1,
         'Temando_Shipping' => 1,
