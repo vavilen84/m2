@@ -1,1 +1,7 @@
+<?php
+use Magento\Framework\View\Element\Template;
+/** @var Template $block */
+?>
+
 <h1>Hello World!</h1>
+<h2><?= $block->getData('message'); ?></h2>
