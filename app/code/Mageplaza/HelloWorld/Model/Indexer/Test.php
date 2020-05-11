@@ -6,7 +6,8 @@ class Test implements \Magento\Framework\Indexer\ActionInterface, \Magento\Frame
     /*
      * Used by mview, allows process indexer in the "Update on schedule" mode
      */
-    public function execute($ids){
+    public function execute($ids)
+    {
 
         //code here!
     }
@@ -15,23 +16,24 @@ class Test implements \Magento\Framework\Indexer\ActionInterface, \Magento\Frame
      * Will take all of the data and reindex
      * Will run when reindex via command line
      */
-    public function executeFull(){
+    public function executeFull()
+    {
         //code here!
     }
-
 
     /*
      * Works with a set of entity changed (may be massaction)
      */
-    public function executeList(array $ids){
+    public function executeList(array $ids)
+    {
         //code here!
     }
-
 
     /*
      * Works in runtime for a single entity using plugins
      */
-    public function executeRow($id){
+    public function executeRow($id)
+    {
         //code here!
     }
 }
